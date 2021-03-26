@@ -74,7 +74,7 @@ ax.axis('tight')
 plt.ylim(0, 9)  # Limit set due to max freq. detectability of microphone.
 print('plotting spectrogram...')
 
-# Save figure | adjust pixel density (Warning: this will influence size, creating problems with crop)
+# Save figure | adjust pixel density (Warning: this will influence size)
 plt.savefig('spect.png', dpi=400, pad_inches=0.0)
 plt.show()
 
